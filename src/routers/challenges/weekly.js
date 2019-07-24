@@ -1,10 +1,14 @@
 const express = require('express')
+const auth = require('../../middleware/auth')
 const Weekly = require('../../models/challenges/weekly')
 
 const router = new express.Router()
 
 //Add a new list of Weekly Challenges
-router.post('/challenges/weekly', async (req, res) => {
+router.post('/challenges/weekly', auth, async (req, res) => {
+  if(req.body.startDate){
+    req.body.startDate = new Date(req.body.startDate)
+  }
   const newWeekly = new Weekly(req.body)
 
   try {
@@ -42,6 +46,43 @@ router.get('/challenges/weekly/:date', async (req, res) => {
     res.status(500).send(e)
   }
   
+})
+
+//Edit Weekly list
+router.patch('/challenges/weekly/:id', auth, async (req, res) => {
+  const _id = req.params.id
+  const updates = Object.keys(req.body)
+
+  try {
+    const weekly = await Weekly.findById(_id)
+    if(!weekly){
+      return res.status(404).send()
+    }
+
+    updates.forEach((update) => weekly[update] = req.body[update])
+    await weekly.save()
+
+    res.send(weekly)
+  } catch (e) {
+    res.status(500).send(e)
+  }
+})
+
+//Delete List of Weekly Challenges
+router.delete('/challenges/weekly/:id', auth, async (req, res) => {
+  const _id = req.params.id
+
+  try {
+    const weekly = await Weekly.findByIdAndDelete(_id)
+
+    if(!weekly){
+      return res.status(404).send()
+    }
+
+    res.send(weekly)
+  } catch (e) {
+    res.status(500).send(e)
+  }
 })
 
 module.exports = router
