@@ -1,16 +1,12 @@
 const express = require('express')
 require('./db/mongoose')
 
-const secret = process.env.SECRET || 'supersecretsecret'
 const middleware = {
   cors: require('./middleware/cors')
 }
 
 const userRouter = require('./routers/users')
-const challengeTypes = [
-  { name: 'themed', router: require('./routers/challenges/themed') },
-  { name: 'weekly', router: require('./routers/challenges/weekly') }
-]
+const challengesRouter = require('./routers/challenges')
   
 
 const app = express()
@@ -27,11 +23,7 @@ app.get('/', (req, res) => {
 })
 
 app.use(userRouter)
-
-//Create a router for each challenge type
-challengeTypes.map((type) => {
-  app.use(type.router)
-})
+app.use(challengesRouter)
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`)

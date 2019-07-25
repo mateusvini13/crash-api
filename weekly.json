@@ -1,0 +1,318 @@
+[
+  {
+    "startDate": "2019-07-24T00:00:00.000Z",
+    "_id": "5d38fdb614c28b1174e3c5ce",
+    "challenges": [
+      {
+        "_id": "5d3909d014c28b1174e3c5f3",
+        "name": "N. Sane Hat Trick",
+        "desc": "Win a game in 3 different Battle Modes on Skull Rock",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5f2",
+        "name": "25 in the Bag",
+        "desc": "Capture 25 flags in Capture the Flag",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5f1",
+        "name": "Crate Breaker",
+        "desc": "Break up a total of 50 crates",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5f0",
+        "name": "Crystal Gatherer",
+        "desc": "Collect a total of 200 crystals in any game mode",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5ef",
+        "name": "Fan of the Flags",
+        "desc": "Play 5 games of Capture the Flag in Nitro Court",
+        "reward": 200
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5ee",
+        "name": "Friendly Meeting",
+        "desc": "Race online against one of your friends",
+        "reward": 300
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5ed",
+        "name": "Kamikaze",
+        "desc": "Hit another player by letting yourself explode with a TNT crate",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5ec",
+        "name": "Online Champion",
+        "desc": "Win 10 races in Online Matchmaking driving either Team Trance, Team Oxide or Doom Buggy",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5eb",
+        "name": "Perfect Start",
+        "desc": "Start 10 races with a Starting Boost",
+        "reward": 300
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5ea",
+        "name": "Solo Champion",
+        "desc": "Win 10 races in Single Race driving either Team Bandicoot, Team Cortex or Imperium",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5e9",
+        "name": "To the Limit",
+        "desc": "Play 3 games of Limit Battle in Desert Storm",
+        "reward": 250
+      },
+      {
+        "_id": "5d3909d014c28b1174e3c5e8",
+        "name": "Uka-Uka's Minion",
+        "desc": "Hit a total of 25 characters in Aku-Aku's team",
+        "reward": 200
+      }
+    ],
+    "__v": 1
+  },
+  {
+    "startDate": "2019-07-17T00:00:00.000Z",
+    "_id": "5d367f0e675ada2c58d9f308",
+    "challenges": [
+      {
+        "_id": "5d367f0e675ada2c58d9f314",
+        "name": "25 in the Bag",
+        "desc": "Capture 25 flags in Capture the Flag",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f313",
+        "name": "All Rounder",
+        "desc": "Win in Lab Basement in every mode",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f312",
+        "name": "Bad Driving",
+        "desc": "Win a race while being hit by 10 obstacles or power ups",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f311",
+        "name": "Crate Breaker",
+        "desc": "Break up a total of 50 crates",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f310",
+        "name": "Crystal Gatherer",
+        "desc": "Collect a total of 100 crystals in any game mode",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f30f",
+        "name": "Friendly Meeting",
+        "desc": "Race online against one of your friends",
+        "reward": 300
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f30e",
+        "name": "King of Boosting",
+        "desc": "Activate Turbo Boost a total of 50 times",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f30d",
+        "name": "Online Champion",
+        "desc": "Win 10 races in Online Matchmaking driving either Team Bandicoot, KARTNAME_B or KARTNAME_C",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f30c",
+        "name": "Perfect Start",
+        "desc": "Start 10 races with a Starting Boost",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f30b",
+        "name": "Solo Champion",
+        "desc": "Win 10 races in Single Race driving either Team Bandicoot, KARTNAME_B or KARTNAME_C",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f30a",
+        "name": "To the Limit",
+        "desc": "Play 3 games of Limit Battle in Parking Lot",
+        "reward": 250
+      },
+      {
+        "_id": "5d367f0e675ada2c58d9f309",
+        "name": "Uka-Uka's Minion",
+        "desc": "Hit a total of 25 characters in Aku-Aku's team",
+        "reward": 200
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "startDate": "2019-07-10T00:00:00.000Z",
+    "_id": "5d3685f299d4eb0648ea3c7e",
+    "challenges": [
+      {
+        "_id": "5d3685f299d4eb0648ea3c8a",
+        "name": "Aku-Aku’s Ally",
+        "desc": "Hit a total of 25 characters in Uka-Uka’s team",
+        "reward": 200
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c89",
+        "name": "Beating the Clock",
+        "desc": "Beat your best time in Roo’s Tubes",
+        "reward": 200
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c88",
+        "name": "Friendly Meeting",
+        "desc": "Race online against one of your friends",
+        "reward": 300
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c87",
+        "name": "Hit Collector",
+        "desc": "Complete a game of Last Kart Driving with the highest amounts of hits in Lab Basemen",
+        "reward": 250
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c86",
+        "name": "Kamikaze",
+        "desc": "Hit another player by letting yourself explode with a TNT crate",
+        "reward": 250
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c85",
+        "name": "King of Boosting",
+        "desc": "Activate Turbo Boost a total of 50 times",
+        "reward": 250
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c84",
+        "name": "Bacon’s Raider",
+        "desc": "Play 5 games of Steal the Bacon in Rocky Road",
+        "reward": 200
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c83",
+        "name": "Online Champion",
+        "desc": "Win 10 races in Online Matchmaking driving either Team Bandicoot, Team Oxide, or Roadster",
+        "reward": 250
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c82",
+        "name": "Perfect Start",
+        "desc": "Start 10 races with a Starting Boost",
+        "reward": 300
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c81",
+        "name": "Rinse and Repeat",
+        "desc": "Complete 20 laps in Inferno Island",
+        "reward": 250
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c80",
+        "name": "Solo Champion",
+        "desc": "Win 10 races in Single Race driving either Team Bandicoot, Team Cortex or Imperium",
+        "reward": 250
+      },
+      {
+        "_id": "5d3685f299d4eb0648ea3c7f",
+        "name": "Triple Threat",
+        "desc": "Play 3 games of Last Kart Driving in Skull Rock",
+        "reward": 200
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "startDate": "2019-07-03T00:00:00.000Z",
+    "_id": "5d38519a5e64742ad0011596",
+    "challenges": [
+      {
+        "_id": "5d38519a5e64742ad00115a2",
+        "name": "Aku-Aku’s Ally",
+        "desc": "Hit a total of 25 characters in Uka-Uka’s team",
+        "reward": 200
+      },
+      {
+        "_id": "5d38519a5e64742ad00115a1",
+        "name": "Beating the Clock",
+        "desc": "Beat your best time in Roo’s Tubes",
+        "reward": 200
+      },
+      {
+        "_id": "5d38519a5e64742ad00115a0",
+        "name": "Friendly Meeting",
+        "desc": "Race online against one of your friends",
+        "reward": 300
+      },
+      {
+        "_id": "5d38519a5e64742ad001159f",
+        "name": "Hit Collector",
+        "desc": "Complete a game of Last Kart Driving with the highest amounts of hits in Lab Basemen",
+        "reward": 250
+      },
+      {
+        "_id": "5d38519a5e64742ad001159e",
+        "name": "Kamikaze",
+        "desc": "Hit another player by letting yourself explode with a TNT crate",
+        "reward": 250
+      },
+      {
+        "_id": "5d38519a5e64742ad001159d",
+        "name": "King of Boosting",
+        "desc": "Activate Turbo Boost a total of 50 times",
+        "reward": 250
+      },
+      {
+        "_id": "5d38519a5e64742ad001159c",
+        "name": "Bacon’s Raider",
+        "desc": "Play 5 games of Steal the Bacon in Rocky Road",
+        "reward": 200
+      },
+      {
+        "_id": "5d38519a5e64742ad001159b",
+        "name": "Online Champion",
+        "desc": "Win 10 races in Online Matchmaking driving either Team Bandicoot, Team Oxide, or Roadster",
+        "reward": 250
+      },
+      {
+        "_id": "5d38519a5e64742ad001159a",
+        "name": "Perfect Start",
+        "desc": "Start 10 races with a Starting Boost",
+        "reward": 300
+      },
+      {
+        "_id": "5d38519a5e64742ad0011599",
+        "name": "Rinse and Repeat",
+        "desc": "Complete 20 laps in Inferno Island",
+        "reward": 250
+      },
+      {
+        "_id": "5d38519a5e64742ad0011598",
+        "name": "Solo Champion",
+        "desc": "Win 10 races in Single Race driving either Team Bandicoot, Team Cortex or Imperium",
+        "reward": 250
+      },
+      {
+        "_id": "5d38519a5e64742ad0011597",
+        "name": "Triple Threat",
+        "desc": "Play 3 games of Last Kart Driving in Skull Rock",
+        "reward": 200
+      }
+    ],
+    "__v": 0
+  }
+]
