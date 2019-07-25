@@ -15,7 +15,7 @@ router.post('/challenges/weekly', auth, async (req, res) => {
     const weekly = await newWeekly.save()
     res.send(weekly)
   } catch (e) {
-    res.status(500).send(e)
+    res.status(400).send(e)
   }
 
 })
@@ -52,6 +52,12 @@ router.get('/challenges/weekly/:date', async (req, res) => {
 router.patch('/challenges/weekly/:id', auth, async (req, res) => {
   const _id = req.params.id
   const updates = Object.keys(req.body)
+  const allowed = ['startDate', 'challenges']
+  const isValid = updates.every((update) => allowed.includes(update))
+
+  if(!isValid){
+    return res.status(400).send({ message: 'Invalid update operation. Check which values you\'re trying to update and try again.' })
+  }
 
   try {
     const weekly = await Weekly.findById(_id)

@@ -30,9 +30,10 @@ const userSchema = new mongoose.Schema({
 
 userSchema.pre('save', async function (next) {
   const user = this
-
-  //Prevent online users from creating Admins
-  user.role = 'player'
+  
+  if(user.isModified('role')){
+    user.role = 'player'
+  }
 
   //Encrypt Password
   if(user.isModified('password')){

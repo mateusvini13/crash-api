@@ -68,7 +68,7 @@ router.patch('/users/me', auth, async (req, res) => {
   const isValid = updates.every((value) => allowed.includes(value))
 
   if(!isValid){
-    return res.status(404).send({error: 'Invalid update operation. Check which values you\'re trying to update and try again.'})
+    return res.status(400).send({ message: 'Invalid update operation. Check which values you\'re trying to update and try again.' })
   }
 
   try {

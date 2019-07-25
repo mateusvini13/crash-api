@@ -7,7 +7,11 @@ const middleware = {
 }
 
 const userRouter = require('./routers/users')
-const weeklyRouter = require('./routers/challenges/weekly')
+const challengeTypes = [
+  { name: 'themed', router: require('./routers/challenges/themed') },
+  { name: 'weekly', router: require('./routers/challenges/weekly') }
+]
+  
 
 const app = express()
 const port = process.env.PORT || 3000
@@ -23,7 +27,11 @@ app.get('/', (req, res) => {
 })
 
 app.use(userRouter)
-app.use(weeklyRouter)
+
+//Create a router for each challenge type
+challengeTypes.map((type) => {
+  app.use(type.router)
+})
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`)
