@@ -2,7 +2,7 @@
   "name": "crash-api",
   "version": "1.0.0",
   "description": "An API for providing info about Crash Team Racing: Nitro Fueled Grand Prix prizes, challenges and leaderboards",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/mateusvini13/crash-api",
   "author": "Mateus Vinícius",
   "license": "MIT",
