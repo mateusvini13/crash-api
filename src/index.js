@@ -7,7 +7,7 @@ const middleware = {
 
 const userRouter = require('./routers/users')
 const challengesRouter = require('./routers/challenges')
-const pitStopRouter = require('./routers/pitStop')
+const pitStopRouter = require('./routers/pitstop')
   
 
 const app = express()
