@@ -7,6 +7,7 @@ const middleware = {
 
 const userRouter = require('./routers/users')
 const challengesRouter = require('./routers/challenges')
+const pitStopRouter = require('./routers/pitStop')
   
 
 const app = express()
@@ -24,6 +25,7 @@ app.get('/', (req, res) => {
 
 app.use(userRouter)
 app.use(challengesRouter)
+app.use(pitStopRouter)
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`)
